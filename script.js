@@ -55,9 +55,9 @@ c2 = a3 - b3
 result1 = c2 + d
 console.log(result1)
 // 9. Вам даны a='10' и b='99'. Сложите переменные a и b и присвойте результат переменной result и выведите её в консоль.
-const a4 = 10
-const b4 = 99
-result2=a4+b4
+const a4 = '10'
+const b4 = '99'
+result2=Number (a4)+ Number (b4)
 console.log(result2)
 //Вам даны переменные name='лет', number=10.
 // Сложите данные переменные, присвойте результат переменной result и выведите её в консоль.
